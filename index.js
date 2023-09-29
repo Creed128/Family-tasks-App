@@ -51,5 +51,4 @@ app.post('/tasks', async (req, res) => {
     res.send(result.deletedCount > 0 ? 'Tâche supprimée avec succès' : 'Aucune tâche supprimée');
   });
   
-  // ...
-  
+  // ...  
